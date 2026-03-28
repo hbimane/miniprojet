@@ -1,0 +1,23 @@
+:: Create HDFS directories
+hdfs dfs -mkdir -p /mini_projet_bigdata/raw
+hdfs dfs -mkdir -p /mini_projet_bigdata/clean
+hdfs dfs -mkdir -p /mini_projet_bigdata/results
+
+:: Upload raw and cleaned files
+hdfs dfs -put -f data/raw/products_raw.json /mini_projet_bigdata/raw/
+hdfs dfs -put -f data/raw/products_raw.csv /mini_projet_bigdata/raw/
+hdfs dfs -put -f data/clean/products_clean.json /mini_projet_bigdata/clean/
+hdfs dfs -put -f data/clean/products_clean.jsonl /mini_projet_bigdata/clean/
+hdfs dfs -put -f data/clean/products_clean.csv /mini_projet_bigdata/clean/
+
+:: Run Hadoop Streaming MapReduce
+hadoop jar %HADOOP_HOME%\share\hadoop\tools\lib\hadoop-streaming-*.jar ^
+  -input /mini_projet_bigdata/clean/products_clean.jsonl ^
+  -output /mini_projet_bigdata/results/category_stats ^
+  -mapper "python mapper.py" ^
+  -reducer "python reducer.py" ^
+  -file mapper.py ^
+  -file reducer.py
+
+:: Read the result
+hdfs dfs -cat /mini_projet_bigdata/results/category_stats/part-00000
