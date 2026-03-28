@@ -1,0 +1,19 @@
+name,price_text,description,reviews_text,rating_stars,product_url,page_url,category,subcategory,position_on_page
+Packard 255 G2,$416.99,"15.6"", AMD E2-3800 1.3GHz, 4GB, 500GB, Windows 8.1",0 reviews,2,https://webscraper.io/test-sites/e-commerce/static/product/31,https://webscraper.io/test-sites/e-commerce/static/computers/laptops,,,1
+Aspire E1-510,$306.99,"15.6"", Pentium N3520 2.16GHz, 4GB, 500GB, Linux",0 reviews,3,https://webscraper.io/test-sites/e-commerce/static/product/32,https://webscraper.io/test-sites/e-commerce/static/computers/laptops,,,2
+ThinkPad T540p,$1178.99,"15.6"", Core i5-4200M, 4GB, 500GB, Win7 Pro 64bit",0 reviews,1,https://webscraper.io/test-sites/e-commerce/static/product/33,https://webscraper.io/test-sites/e-commerce/static/computers/laptops,,,3
+ProBook,$739.99,"14"", Core i5 2.6GHz, 4GB, 500GB, Win7 Pro 64bit",0 reviews,4,https://webscraper.io/test-sites/e-commerce/static/product/34,https://webscraper.io/test-sites/e-commerce/static/computers/laptops,,,4
+ThinkPad X240,$1311.99,"12.5"", Core i5-4300U, 8GB, 240GB SSD, Win7 Pro 64bit",0 reviews,3,https://webscraper.io/test-sites/e-commerce/static/product/35,https://webscraper.io/test-sites/e-commerce/static/computers/laptops,,,5
+Aspire E1-572G,$581.99,"15.6"", Core i5-4200U, 8GB, 1TB, Radeon R7 M265, Windows 8.1",0 reviews,1,https://webscraper.io/test-sites/e-commerce/static/product/36,https://webscraper.io/test-sites/e-commerce/static/computers/laptops,,,6
+Lenovo IdeaTab,$69.99,"7"" screen, Android",0 reviews,3,https://webscraper.io/test-sites/e-commerce/static/product/10,https://webscraper.io/test-sites/e-commerce/static/computers/tablets,,,1
+Acer Iconia,$96.99,"7"" screen, Android, 16GB",0 reviews,1,https://webscraper.io/test-sites/e-commerce/static/product/11,https://webscraper.io/test-sites/e-commerce/static/computers/tablets,,,2
+Asus MeMO Pad,$102.99,"7"" screen, Android, 8GB",0 reviews,4,https://webscraper.io/test-sites/e-commerce/static/product/12,https://webscraper.io/test-sites/e-commerce/static/computers/tablets,,,3
+Amazon Kindle,$103.99,"6"" screen, wifi",0 reviews,4,https://webscraper.io/test-sites/e-commerce/static/product/13,https://webscraper.io/test-sites/e-commerce/static/computers/tablets,,,4
+iPad Mini Retina,$537.99,"Wi-Fi + Cellular, 32GB, Silver",0 reviews,2,https://webscraper.io/test-sites/e-commerce/static/product/14,https://webscraper.io/test-sites/e-commerce/static/computers/tablets,,,5
+IdeaTab A3500L,$88.99,"Black, 7"" IPS, Quad-Core 1.2GHz, 8GB, Android 4.2",0 reviews,4,https://webscraper.io/test-sites/e-commerce/static/product/15,https://webscraper.io/test-sites/e-commerce/static/computers/tablets,,,6
+Nokia 123,$24.99,7 day battery,0 reviews,3,https://webscraper.io/test-sites/e-commerce/static/product/1,https://webscraper.io/test-sites/e-commerce/static/phones/touch,,,1
+LG Optimus,$57.99,"3.2"" screen",0 reviews,3,https://webscraper.io/test-sites/e-commerce/static/product/2,https://webscraper.io/test-sites/e-commerce/static/phones/touch,,,2
+Samsung Galaxy,$93.99,5 mpx. Android 5.0,0 reviews,3,https://webscraper.io/test-sites/e-commerce/static/product/3,https://webscraper.io/test-sites/e-commerce/static/phones/touch,,,3
+Nokia X,$109.99,"Andoid, Jolla dualboot",0 reviews,4,https://webscraper.io/test-sites/e-commerce/static/product/4,https://webscraper.io/test-sites/e-commerce/static/phones/touch,,,4
+Sony Xperia,$118.99,"GPS, waterproof",0 reviews,1,https://webscraper.io/test-sites/e-commerce/static/product/5,https://webscraper.io/test-sites/e-commerce/static/phones/touch,,,5
+Ubuntu Edge,$499.99,Sapphire glass,0 reviews,1,https://webscraper.io/test-sites/e-commerce/static/product/6,https://webscraper.io/test-sites/e-commerce/static/phones/touch,,,6
